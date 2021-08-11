@@ -1,0 +1,10 @@
+name: BundleAddon
+version: 1.0
+main: bundleaddon.bundleaddon.BundleAddon
+api-version: 1.17
+
+commands:
+  bundleaddon:
+    aliases:
+      - bundle
+    permission: bundle.user
